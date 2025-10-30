@@ -23,7 +23,7 @@ class Program
         }
 
         // Calculates sum of numbers in list
-        float total = 0;
+        int total = 0;
         foreach (int number in numbers)
         {
             total += number;
@@ -31,7 +31,7 @@ class Program
         Console.WriteLine($"The sum is: {total}");
 
         // Computes average of the numbers in list
-        float average = total / numbers.Count;
+        float average = ((float)total) / numbers.Count;
         Console.WriteLine($"The average is: {average}");
 
         // Finds the largest number in the list
